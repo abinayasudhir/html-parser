@@ -59,4 +59,4 @@ toAttribute ( name, value ) =
 
 svgNode : String -> List (Attribute msg) -> List (Html msg) -> Html msg
 svgNode =
-    Elm.Kernel.VirtualDom.nodeNS "http://www.w3.org/2000/svg"
+    VirtualDom.nodeNS "http://www.w3.org/2000/svg"
